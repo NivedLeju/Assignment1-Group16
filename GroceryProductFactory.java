@@ -1,6 +1,6 @@
-package Asssignment1;
+
 
 public interface GroceryProductFactory {
    
-    public void createProduct(String product);
+    public Product createProduct(String product);
 }

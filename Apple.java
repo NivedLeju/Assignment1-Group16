@@ -1,4 +1,4 @@
-package Asssignment1;
+
 public class Apple implements Product{
 
 @Override

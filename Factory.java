@@ -1,8 +1,8 @@
-package Asssignment1;
+
 
 public class Factory implements GroceryProductFactory{
    
-    public GroceryProductFactory createProduct(String product) {
+    public Product createProduct(String product) {
         if(product == null|| product.isEmpty())
             return null;
         
