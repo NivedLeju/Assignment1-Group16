@@ -1,5 +1,5 @@
 package Asssignment1;
-public class Apple implements GroceryProductFactory{
+public class Apple implements Product{
 
 @Override
 public void outputPrice() {
