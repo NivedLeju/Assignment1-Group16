@@ -2,5 +2,5 @@ package Asssignment1;
 
 public interface GroceryProductFactory {
    
-    public void createProduct();
+    public void createProduct(String product);
 }
