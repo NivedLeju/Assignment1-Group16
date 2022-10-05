@@ -1,5 +1,5 @@
 package Asssignment1;
-public class Banana implements GroceryProductFactory{
+public class Banana implements Product{
   
 @Override
     public void outputPrice() {

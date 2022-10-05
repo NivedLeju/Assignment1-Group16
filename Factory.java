@@ -1,6 +1,6 @@
 package Asssignment1;
 
-public class Factory{
+public class Factory implements GroceryProductFactory{
    
     public GroceryProductFactory createProduct(String product) {
         if(product == null|| product.isEmpty())
